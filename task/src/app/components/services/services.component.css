@@ -1,0 +1,123 @@
+
+.navbar-brand {
+   margin-left:20%;
+
+}
+.navbar-nav{
+ margin-left:14%;
+}
+
+a{
+    font-size:20px;
+    color: rgb(56, 54, 54);
+}
+.navbar-nav a:hover{
+    color:#00adb0;
+    border-bottom: 2px solid #00adb0;
+  
+}
+.navbar{
+    
+    background-color: #00adb0;
+}
+
+.navbar p{
+    margin-right: 5%;
+    font-size:28px;
+    color: white;
+    font-weight: 100;
+}
+.container{
+max-width:100%;
+height:380px;
+background-image: url(https://media1.giphy.com/media/U3qYN8S0j3bpK/giphy.webp?cid=ecf05e47qs04o1pahybw7h75i0ffpue69iejv5j4vdiyxh6u&rid=giphy.webp&ct=g);
+
+}
+.container p{
+    font-size:25px;
+    font-weight: 100;
+    color: white;
+   display: flex;
+   justify-content: center;
+   padding-top:150px;
+   align-items: center;
+   justify-items: center;
+}
+.row{
+    margin-top:60px;
+    margin-left:20%;
+    margin-right: 20%;
+    margin-bottom:80px;
+    
+}
+.row p{
+    font-size:14px;
+    color: rgb(112, 104, 104);
+}
+.row h2{
+    font-size:20px;
+    color: rgb(51, 48, 48);
+    font-weight:400;
+
+}
+.row img{
+width:45px;
+height:45pxpx;
+
+}
+.consult-page{
+max-width:100%;
+height:420px;
+background-image: url(https://media.istockphoto.com/photos/businessman-speaking-during-a-meeting-picture-id1355159391?b=1&k=20&m=1355159391&s=170667a&w=0&h=xia-cA2QyA0Q0OIFo78dU8_-INad7YEc3drve58zXI8=);
+background-repeat: no-repeat;
+background-size: cover;
+background-position:0%;
+}
+.page-footer{
+    max-width:100%;
+    max-height: 120px;
+    background-color:rgb(22, 21, 21);
+    border-bottom: 4px solid #00adb0 ;
+}
+
+.footer ul{
+    display:flex;
+    flex: auto;
+    justify-content: center;
+    flex-direction: row;
+   
+
+}
+.footer ul li{
+ list-style: none;
+ color: rgb(77, 74, 72);
+ font-size:14px;
+ margin-top:35px;
+ padding: 0px 5px 10px 10px;
+ 
+}
+.footer a{
+text-decoration: none;
+color: #00adb0 ;
+font-size:15px;
+}
+.footer img{
+    
+    max-height:100px;
+    max-width: 100px;
+    margin-right:20px;
+}
+.consult-page-text{
+  flex: auto;
+ align-self: auto;
+ margin-left:150px;
+ padding-top:150px;
+ font-size:16px;
+ font-weight: 600; 
+}
+button{
+    border-radius: 5px;
+    margin-right:8px;
+    height:35px;
+    width:180px;
+}

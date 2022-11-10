@@ -1,0 +1,22 @@
+<form #authform="ngForm" (ngSubmit)="onsubmit(authform)">
+    <div class="alert alert-danger my-2 mx-2" *ngIf="ifvalid">Your email and password is  not valid</div><br>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" ngModel name="email" required email>
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" ngModel name="password" required minlength="6">
+    </div>
+    <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+   
+   
+    
+    <button type="submit" class="btn btn-primary mx-2">login</button>|
+   
+    <button type="submit" class="btn btn-primary" (click)="onlogin()">signup</button>
+  </form>

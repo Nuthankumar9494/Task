@@ -1,0 +1,67 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
+    <a class="navbar-brand" href="#">
+      <img src="https://www.tectoro.com/img/capital-markets-technology-consulting-hyderabad.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ">
+        <a class="nav-item nav-link activemx-2" routerLink="/" routerLinkActive="active">Home <span class="sr-only"></span></a>
+        <a class="nav-item nav-link mx-2" routerLink="/services" routerLinkActive="active">Services</a>
+        <a class="nav-item nav-link mx-2" href="#">About</a>
+        <a class="nav-item nav-link mx-2" href="#">careers</a>
+        <a class="nav-item nav-link mx-2" href="#">Patners</a>
+        <a class="nav-item nav-link mx-2" href="#">Contact Us</a>
+      </div>
+    </div>
+  </nav>
+<!-- As a link -->
+<!-- Just an image -->
+
+<nav class="navbar navbar-light ">
+    <a class="navbar-brand" href="#">
+        <p>services</p>
+    </a>
+</nav>
+<div class="container">
+    <p class="text-center">Capital Market Technology group specializing in concept to launch of enterprise grade,
+        middle and back office space.</p>
+</div>
+<div class="row d-flex-row">
+    <div class="col-md-5 p-2 " *ngFor="let items of user">
+        <div class="p-1"><img src="{{items.pic}}" alt=""></div>
+        <div *ngIf="items.Tooltip;else none">
+            <h2>{{items.Tooltip}}</h2>
+        </div>
+        <ng-template #none>
+            <p>No Tooltip</p>
+        </ng-template>
+        <p class="p-1">{{items.About}} </p>
+    </div>
+</div>
+<div class="consult-page">
+    <div class="consult-page-text">
+        <div></div>
+        <h4>HAVE AN IDEA</h4>
+        <p>Let us help you. Our designers and agile developers will amaze you by rapidly bringing your</p>
+        <button type="button" class="btn btn-outline-dark ">Get in Touch</button>
+        <button type="button" class="btn btn-outline-dark">Download Brocher</button>
+    </div>
+</div>
+<!-- Footer -->
+<footer class="page-footer">
+    <div class="footer">
+        <ul>
+            <img src="https://www.tectoro.com/img/capital-markets-technology-consulting.png" alt="">
+            <li>© 2015. «<a href="">Tectoro Consulting Pvt Ltd.»</a>. All rights reserved.</li>
+            <li>Privacy Policy</li>
+            <li>Term og Use</li>
+        </ul>
+
+    </div>
+
+
+
+</footer>
+<!-- Footer -->
